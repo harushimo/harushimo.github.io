@@ -1,1 +1,3 @@
-# udacity_FSND_2
+# Project 2 Build an Portfolio Website
+
+Working on the documentation
