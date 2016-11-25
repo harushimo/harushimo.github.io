@@ -1,0 +1,14 @@
+/*HTML ELEMENTS*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #666756;
+  background: #fff;
+}
+
+hr {
+  border-top: 4px solid #bbb;
+}
+
+/*Class Elements*/
