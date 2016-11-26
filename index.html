@@ -13,7 +13,7 @@
 
     <!-- CSS-->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="../udacity_FSND_2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../udacity_FSND_2/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../udacity_FSND_2/css/styles.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,14 +25,38 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <img src="../udacity_FSND_2/images/hari_vedam.jpg" style = "width:100px; height:100px;"alt="" />
-        </div>
-        <div class="info col-md-6">
-          <h1>Hari Vedam</h1>
-          <h3>Job Title</h3>
-        </div>
+          <div class="col-md-6">
+            <img src="../udacity_FSND_2/images/hari_vedam.jpg" class = logo alt="" />
+          </div>
+          <div class="info col-md-6">
+            <h1 class = "info-name text-thin">Hari Vedam</h1>
+            <h3 class="info-title">Job Title</h3>
+          </div>
       </div><!--row -->
-    </div>
+      <div class="row">
+        <hr>
+        <img src="../udacity_FSND_2/images/cubs_3.jpg" class="img-responsive" alt="Chicago Cubs" />
+      </div>
+      <div class="row">
+        <h2>Featured Work</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="../udacity_FSND_2/images/Planning-Scheduling.png" class = "img-responsive" alt="" />
+          <h3 class = "text-uppercase">Project 1</h3>
+          <p>https://github.com/harushimo</p>
+        </div>
+        <div class="col-md-4">
+          <img src="../udacity_FSND_2/images/Planning-Scheduling.png" class = "img-responsive" alt="" />
+          <h3 class = "text-uppercase">Project 2</h3>
+          <p>https://github.com/harushimo</p>
+        </div>
+        <div class="col-md-4">
+          <img src="../udacity_FSND_2/images/Planning-Scheduling.png" class = "img-responsive" alt="" />
+          <h3 class = "text-uppercase">Project 3</h3>
+          <p>https://github.com/harushimo</p>
+        </div>
+      </div>
+    </div><!-- container-->
   </body>
 </html>
