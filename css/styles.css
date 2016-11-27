@@ -1,12 +1,8 @@
-
-
 /*HTML ELEMENTS*/
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 14px;
-  color: #666756;
-  background: #fff;
+  color: #676858;
 }
 
 hr {
@@ -16,9 +12,16 @@ hr {
 /*Class Elements*/
 
 .info {
-  margin-top: 10px;
   text-align: right;
   text-transform: uppercase;
+}
+
+.text-muted {
+  color: #BCBBBB
+}
+
+.text-thin {
+  font-weight: 100;
 }
 
 /*Logo Element for the picture*/
@@ -43,7 +46,7 @@ hr {
   }
 }
 
-/*Tablet Version L*/
+/*Tablet Version Landscape*/
 
 @media only screen and (max-width: 768px) {
   .info {
