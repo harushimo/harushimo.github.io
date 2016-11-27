@@ -59,3 +59,15 @@ hr {
     margin-left: auto;
   }
 }
+
+/* Phone Version*/
+@media only screen and (max-width: 480px) {
+  .info {
+    text-align: center;
+  }
+  .logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
