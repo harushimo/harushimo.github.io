@@ -16,7 +16,9 @@ hr {
 /*Class Elements*/
 
 .info {
+  margin-top: 10px;
   text-align: right;
+  text-transform: uppercase;
 }
 
 /*Logo Element for the picture*/
@@ -24,4 +26,32 @@ hr {
   margin-top: 20px;
   width: 100px;
   height: 100px;
+}
+
+/*Media query*/
+
+/*Desktop Version*/
+
+@media only screen and (max-width: 992px) {
+  .info {
+    text-align: center;
+  }
+  .logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/*Tablet Version L*/
+
+@media only screen and (max-width: 768px) {
+  .info {
+    text-align: center;
+  }
+  .logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
