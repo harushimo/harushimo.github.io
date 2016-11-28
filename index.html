@@ -11,7 +11,7 @@
     <!-- Font -->
 
     <!-- CSS-->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -46,9 +46,9 @@
           <p></p>
         </div>
         <div class="col-md-4 col-sm-4">
-          <img src="images/Planning-Scheduling.png" class = "img-responsive" alt="" />
-          <h3 class = "text-uppercase">Project 1</h3>
-          <p>https://github.com/harushimo</p>
+          <img src="images/Planning-Scheduling.png" class = "img-responsive" alt="Task Scheduler" data-toggle="modal" data-target=".project_one-modal"/>
+          <h3 class = "text-uppercase">Project 1: Taskscheduler</h3>
+          <p>https://github.com/harushimo/taskscheduler</p>
         </div>
         <div class="col-md-4 col-sm-4">
           <img src="images/Planning-Scheduling.png" class = "img-responsive" alt="" />
@@ -74,6 +74,25 @@
             <div class="modal-body">
               <p>
                 My name is Hari Vedam.  I'm working towards the full stack certification on Udacity. This is an working portfolio site. It will showcase on my projects from the courses.
+              </p>
+            </div><!-- modal body-->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div><!-- modal footer-->
+          </div><!-- modal content-->
+        </div><!-- modal dialog-->
+      </div>
+
+      <!-- Project One Modal -->
+      <div class="modal fade project_one-modal" tabindex="-1" role ="dialog" aria-labelledby = "projectOneModal" aria-hidden = "true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class = "modal-title" id = "projectOne">Task Scheduler</h4>
+            </div> <!-- modal header-->
+            <div class="modal-body">
+              <p>
+                This is my first project called Task Scheduler.  I worked on this project using bootstrap and ember.  <a href="http://emberjs.com/">Ember</a> is a client side framework.
               </p>
             </div><!-- modal body-->
             <div class="modal-footer">
